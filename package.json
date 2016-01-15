@@ -1,0 +1,41 @@
+{
+  "name": "dimension",
+  "version": "0.0.1",
+  "description": "dimension",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack-dev-server --http --inline --colors --progress --display-error-details --display-cached --host 0.0.0.0 --port 8080 --content-base src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitbucket.uucin.com/liulnn/dimension.git"
+  },
+  "keywords": [
+    "dimension"
+  ],
+  "author": "liulnn <liull0743@126.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://gitbucket.uucin.com/liulnn/dimension/issues"
+  },
+  "homepage": "https://gitbucket.uucin.com/liulnn/dimension#readme",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "gulp": "^3.9.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-util": "^3.0.7",
+    "html-loader": "^0.4.0",
+    "ts-loader": "^0.7.2",
+    "typescript": "^1.7.3",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.0",
+    "es6-promise": "3.0.2",
+    "es6-shim": "0.33.3",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.0",
+    "zone.js": "0.5.10"
+  }
+}
